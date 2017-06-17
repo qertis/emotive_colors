@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emotive colours</title>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Emotive colours">
+    <meta name="theme-color" content="#FFFFFF">
+
+    <style>
+        @font-face {
+            font-family: 'Neucha';
+            font-style: normal;
+            font-weight: 400;
+            src: url('/assets/fonts/neucha-latin.woff2') format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        @font-face {
+            font-family: 'Neucha', cursive;
+            font-style: normal;
+            font-weight: 400;
+            src: local('Neucha'), url('/assets/fonts/neucha-cyr.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Engine -->
+<script src="/js/vendors/phaser.min.js"></script>
+<script src="/js/vendors/phaser-state-transition.min.js"></script>
+
+<!-- Shaders -->
+<script src="/js/components/shaders.js"></script>
+
+<script src="/js/components/sounds.js"></script>
+
+<!-- Scenes -->
+<script src="/js/scenes/GameScene.js"></script>
+<script src="/js/scenes/SceneTutorial.js"></script>
+<script src="/js/scenes/Scene1.js"></script>
+<script src="/js/scenes/Scene2.js"></script>
+<script src="/js/scenes/Scene3.js"></script>
+
+<!-- Main -->
+<script src="/js/index.js"></script>
+
+<div style="font-family: Neucha; position: absolute; left: -99999px; color: transparent">тестtext</div>
+
+</body>
+</html>

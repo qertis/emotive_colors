@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "Emotive colours",
+  "launch_path": "/index.html",
+  "description": "Emotive colours",
+  "icons": {
+  },
+  "developer": {
+    "name": "",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Emotive colours",
+      "description": "Emotive colours"
+    }
+  }
+}
